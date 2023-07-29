@@ -1,2 +1,2 @@
 # student-recipe-app-2020
-A student recipe application
+This repository contains code for an implementation of a student recipe app in Java using Android Studio.
