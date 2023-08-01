@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514510307927",
+    "firebase_url": "https://student-recipes-1bc1f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "student-recipes-1bc1f",
+    "storage_bucket": "student-recipes-1bc1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514510307927:android:826ed4924e02771ab11912",
+        "android_client_info": {
+          "package_name": "com.example.studentrecipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514510307927-dcoh76vo13c9cbbffa3bdkiu0l7p6r1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm6UNua5IGg4_GbQPShnNkCYAGfmRXRJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514510307927-dcoh76vo13c9cbbffa3bdkiu0l7p6r1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
