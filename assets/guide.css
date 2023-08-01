@@ -1,0 +1,108 @@
+@charset "utf-8";
+*{
+    margin: auto;
+    padding : 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+}
+
+body {
+	font: 0.875em/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F5F5F5;
+	color: #000000;
+}
+
+h1, h2, p {
+	margin-top: 1.67%;
+	margin-bottom: 1.67%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.contents-title, nav{
+	background-color: #D9E3DA;
+}
+
+nav{
+	width: 100%;
+	padding-bottom: 1.67%;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	/*margin-bottom: 1.67%; /* Exercise 3: 3px is changed to 1.67% of nav width 180px */
+	font-size: 1.14em; /* Exercise 1: font-size: 16px; 1 em = 14px */
+}
+nav ul a:link, nav ul a:visited {
+	padding: 1.67% 1.67% 1.67% 8.33%;
+	display: block;
+	width: 88.88%; /* Exercise 2: original width: 160px, out of nav 180px */
+	text-decoration: none;
+	color: #0B486B;
+}
+nav ul a:hover, nav ul a:active, nav ul a:focus {
+	background-color: #008080;
+	color: #FFF;
+}
+
+a:link, a:visited {
+	color: #250b6b;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 6.68%
+}
+
+#page-container{
+    width: 100%;
+    max-width:960px;
+    min-width:350px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+header{
+    width:100%;
+    overflow: hidden;
+}
+
+h1 {
+	margin: 2.5% 0;
+	font-size: 2.57em;
+	color: #008080;
+	text-align: center;
+}
+
+section{
+    margin-bottom: 6.68%;
+}
+
+@media screen and (max-width:439px){
+	header h1{
+		font-size:2em;
+	}
+	article{
+		font-size:1em;
+	}
+	nav, article {
+		width:100%;
+	}
+}
+
+@media screen and (min-width:440px) and (max-width:760px){
+	header h1{
+		font-size:3em;
+	}
+	article{
+		font-size:1.5em;
+	}
+	nav, article {
+		width:100%;
+	}
+}
